@@ -1,54 +1,4 @@
-#program konversi temperatur
-print("-------------------------------------------------")
-print("\n    program konversi\n")
-print("-------------------------------------------------")
-
-select = input("""
-pilih konversi [suhu/jarak/berat/mata uang] : 
-""")
-
-#suhu
-if select == "suhu":
-    temperatur = input("pilih temperatur [celcius/reamur/fahrenhait/kelvin] : ")
-    suhu = int(input("masuksan suhu : "))
-    #konversi from celcius
-    if temperatur == "celcius":
-        reamur = (4/5) * suhu
-        print(f"suhu konversi = {reamur} reamur")
-        fahrenhait = ((9/5) * suhu) + 32
-        print(f"suhu konversi = {fahrenhait} fahrenhait")
-        kelvin = suhu + 273.15
-        print(f"suhu konversi = {kelvin} kelvin")
-    # konversi from reamur
-    elif temperatur == "reamur":
-        celcius = (5/4) * suhu
-        print(f"suhu konversi = {celcius} celcius")
-        fahrenhait = (9/4) * suhu + 32
-        print(f"suhu konversi = {fahrenhait} fahrenhait")
-        kelvin = (5/4) * suhu + 273
-        print(f"suhu konversi = {kelvin} kelvin")
-    # konversi from fahrenhait
-    elif temperatur == "fahrenhait":
-        celcius = 5/9 * (suhu-32)
-        print(f"suhu konversi = {celcius} celcius")
-        reamur = 4/9 * (suhu-32)
-        print(f"suhu konversi = {reamur} reamur")
-        kelvin = 5/9 * (suhu-32) + 273
-        print(f"suhu konversi = {kelvin} kelvin")
-    # konversi from kelvin
-    elif temperatur == "kelvin":
-            celcius =suhu - 273
-            print(f"suhu konversi = {celcius} celcius")
-            reamur = 4/5 * (suhu - 273)
-            print(f"suhu konversi = {reamur} reamur")
-            kelvin = 9/5 * (suhu-273) + 32
-            print(f"suhu konversi = {kelvin} kelvin")
-    else:
-         print("masukan value dengan benar!")
-
-elif select == "jarak":
-     panjang = input("pilih jarak dalm (km\hm/dam/m/dm/cm/mm)")
-     value = int(input("masukan jarak yang kamuinginkan : "))
+def pj(panjang, value):
      if panjang == "km":
           km = value
           hm = value * 10
@@ -126,13 +76,9 @@ elif select == "jarak":
           print(f"km\thm\tdam\tm\tdm\tcm\tmm\n")
           print("-"*65)
           print(f"{km}\t{hm}\t{dam}\t{m}\t{dm}\t{cm}\t{mm}")
-     else:
-        print("masukan dengan benar!")
-
-elif select == "berat":
-     berat = input("pilih jarak dalm (kg\hg/dag/g/dg/cg/mg)")
-     value = int(input("masukan berat yang kamuinginkan : "))
-     if berat == "kg":
+     
+def pb(berat, value):
+      if berat == "kg":
           kg = value
           hg = value * 10
           dag = value * 100
@@ -143,7 +89,7 @@ elif select == "berat":
           print(f"kg\thg\tdag\tg\tdg\tcg\tmg\n")
           print("-"*65)
           print(f"{kg}\t{hg}\t{dag}\t{g}\t{dg}\t{cg}\t{mg}")
-     elif berat == "hg":
+      elif berat == "hg":
           kg = value / 10
           hg = value
           dag = value * 10
@@ -154,7 +100,7 @@ elif select == "berat":
           print(f"kg\thg\tdag\tg\tdg\tcg\tmg\n")
           print("-"*65)
           print(f"{kg}\t{hg}\t{dag}\t{g}\t{dg}\t{cg}\t{mg}")
-     elif berat == "dag":
+      elif berat == "dag":
           kg = value / 100
           hg = value / 10
           dag = value
@@ -165,7 +111,7 @@ elif select == "berat":
           print(f"kg\thg\tdag\tg\tdg\tcg\tmg\n")
           print("-"*65)
           print(f"{kg}\t{hg}\t{dag}\t{g}\t{dg}\t{cg}\t{mg}")
-     elif berat == "g":
+      elif berat == "g":
           kg = value / 1000
           hg = value / 100
           dag = value / 10
@@ -176,7 +122,7 @@ elif select == "berat":
           print(f"kg\thg\tdag\tg\tdg\tcg\tmg\n")
           print("-"*65)
           print(f"{kg}\t{hg}\t{dag}\t{g}\t{dg}\t{cg}\t{mg}")
-     elif berat == "dg":
+      elif berat == "dg":
           kg = value / 10000
           hg = value / 1000
           dag = value / 100
@@ -187,7 +133,7 @@ elif select == "berat":
           print(f"kg\thg\tdag\tg\tdg\tcg\tmg\n")
           print("-"*65)
           print(f"{kg}\t{hg}\t{dag}\t{g}\t{dg}\t{cg}\t{mg}")
-     elif berat == "cg":
+      elif berat == "cg":
           kg = value / 100000
           hg = value / 10000
           dag = value / 1000
@@ -198,7 +144,7 @@ elif select == "berat":
           print(f"kg\thg\tdag\tg\tdg\tcg\tmg\n")
           print("-"*65)
           print(f"{kg}\t{hg}\t{dag}\t{g}\t{dg}\t{cg}\t{mg}")
-     elif berat == "mg":
+      elif berat == "mg":
           kg = value / 1000000
           hg = value / 100000
           dag = value / 10000
@@ -209,32 +155,5 @@ elif select == "berat":
           print(f"kg\thg\tdag\tg\tdg\tcg\tmg\n")
           print("-"*65)
           print(f"{kg}\t{hg}\t{dag}\t{g}\t{dg}\t{cg}\t{mg}")
-     else:
+      else:
         print("masukan dengan benar!")
-
-elif select == "mata uang":
-     mataUang = input("masukan nilai mata uang [USA/IDN/DINAR] : ")
-     nilai = int(input("masukan nilai uang : "))
-     if mataUang == "USA" or mataUang == "usa":
-          usa = nilai
-          idn = 16000*nilai
-          dinar = 16000*nilai
-          print(f"indonesia dinar \t usa\n")
-          print("-"*65)
-          print(f"{idn}\t {dinar} \t {usa}")
-     elif mataUang =="idn" or mataUang == "IDN":
-          idn = nilai
-          usa = nilai / 16000
-          dinar = nilai / 5000
-          print(f"indonesia dinar \t usa\n")
-          print("-"*65)
-          print(f"{idn}\t {dinar} \t {usa}")
-     elif mataUang == "DINAR" or mataUang == "dinar":
-          idn = nilai*3500
-          usa = nilai*13000
-          dinar = nilai
-          print(f"indonesia dinar \t usa\n")
-          print("-"*65)
-          print(f"{idn}\t {dinar} \t {usa}")
-     else:
-          print("masukan mata uang yang telah di tentukan")
