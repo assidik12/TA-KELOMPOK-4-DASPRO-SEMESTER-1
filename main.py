@@ -41,7 +41,7 @@ def konversi(select):
           value = int(input("masukan berat yang kamuinginkan : "))
           Program.b_p.pb(berat,value)
      elif select == "mata uang" or select == "4":
-          mataUang = input("masukan nilai mata uang [USA/IDN/DINAR] : ")
+          mataUang = input("masukan nilai mata uang [USD/IDR/DINAR] : ")
           nilai = int(input("masukan nilai uang : "))
           Program.mata_uang.mu(mataUang, nilai)
 
