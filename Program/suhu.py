@@ -1,32 +1,40 @@
+# Konversi suhu
 def mySuhu(temperatur, suhu):
-        #konversi from celcius
-    if temperatur == "celcius":
+    if temperatur == "celcius" or temperatur == "1":
             reamur = (4/5) * suhu
             fahrenhait = ((9/5) * suhu) + 32
             kelvin = suhu + 273.15
-            print("reamur  fahrenhait  kelvin")
-            print("-"*45)
-            print(f"{reamur}\t{fahrenhait}\t{kelvin}")
-    elif temperatur == "reamur":
+            print(f"""
+      Reamur          : {reamur}
+      Fahrenhait      : {fahrenhait}
+      Kelvin          : {kelvin}
+                  """)
+    elif temperatur == "reamur" or temperatur == "2":
             celcius = (5/4) * suhu
             fahrenhait = (9/4) * suhu + 32
             kelvin = (5/4) * suhu + 273
-            print("celcius  fahrenhait  kelvin")
-            print("-"*45)
-            print(f"{celcius}\t{fahrenhait}\t{kelvin}")
-    elif temperatur == "fahrenhait":
+            print(f"""
+      Reamur          : {reamur}
+      Fahrenhait      : {fahrenhait}
+      Kelvin          : {kelvin}
+                  """)
+    elif temperatur == "fahrenhait"or temperatur == "3":
             celcius = 5/9 * (suhu-32)
             reamur = 4/9 * (suhu-32)
             kelvin = 5/9 * (suhu-32) + 273
-            print("reamur  celcius  kelvin")
-            print("-"*45)
-            print(f"{reamur}\t{celcius}\t{kelvin}")
-    elif temperatur == "kelvin":
+            print(f"""
+      Reamur          : {reamur}
+      Fahrenhait      : {fahrenhait}
+      Kelvin          : {kelvin}
+                  """)
+    elif temperatur == "kelvin" or temperatur == "4":
             celcius =suhu - 273
             reamur = 4/5 * (suhu - 273)
             kelvin = 9/5 * (suhu-273) + 32
-            print("reamur  fahrenhait  kelvin")
-            print("-"*45)
-            print(f"{reamur}\t{fahrenhait}\t{kelvin}")
+            print(f"""
+      Reamur          : {reamur}
+      Fahrenhait      : {fahrenhait}
+      Kelvin          : {kelvin}
+                  """)
     else:
-            print("masukan value dengan benar!")
+            print("Masukan value dengan benar!")

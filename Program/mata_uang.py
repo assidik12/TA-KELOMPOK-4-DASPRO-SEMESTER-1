@@ -1,24 +1,24 @@
 def mu(mataUang, nilai):
-     if mataUang == "USD" or mataUang == "usd":
+     if mataUang == "USA" or mataUang == "usa":
           usa = nilai
-          idn = int(15430*nilai)
-          dinar = int(nilai*3.25)
-          print(f"indonesia dinar\tusa\n")
+          idn = 16000*nilai
+          dinar = 16000*nilai
+          print(f"INDONESIA\t     DINAR\t    USA\n")
           print("-"*65)
-          print(f"{idn}\t {dinar}\t {usa}")
-     elif mataUang =="idr" or mataUang == "IDR":
+          print(f"{idn}\t        {dinar}\t    {usa}")
+     elif mataUang =="idn" or mataUang == "IDN":
           idn = nilai
-          usa = nilai / 15430
-          dinar = int(nilai / 50.211)
-          print(f"indonesia dinar \t usa\n")
+          usa = nilai / 16000
+          dinar = nilai / 5000
+          print(f"INDONESIA\t     DINAR\t    USA\n")
           print("-"*65)
-          print(f"{idn}\t {dinar} \t {usa}")
+          print(f"{idn}\t       {dinar}\t    {usa}")
      elif mataUang == "DINAR" or mataUang == "dinar":
-          idn = int(nilai*50.211)
-          usa = int(nilai*3.25)
+          idn = nilai*3500
+          usa = nilai*13000
           dinar = nilai
-          print(f"indonesia dinar \t usa\n")
-          print("-"*65)
-          print(f"{idn}\t {dinar} \t {usa}")
+          print(f"INDONESIA\t     DINAR\t   USA\n")
+          print("-"*40)
+          print(f"{idn}\t       {dinar}\t    {usa}")
      else:
-          print("masukan mata uang yang telah di tentukan")
+          print("Masukan mata uang yang telah di tentukan")
