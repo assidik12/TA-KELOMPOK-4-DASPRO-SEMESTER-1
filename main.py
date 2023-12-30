@@ -53,7 +53,16 @@ while True:
                value = int(input("Masukan berat yang kamu inginkan : "))
                Program.b_p.pb(berat,value)
           elif select == "mata uang" or select == "4":
-               mataUang = input("Masukan nilai mata uang [USA/IDN/DINAR] : ")
+               mataUang = input("""
+               pilih kode mata uang:
+                                
+                1. Dinar Kuwait (KWD)        6. Gibraltar Pound (GIP)
+                2. Dinar Bahrain (BHD)       7. Cayman Island Dollar (KYD)
+                3.Rial Oman (OMR)            8. Swiss Franc (CHF)
+                4.Dinar Yordania (JOD)       9. Euro (EUR)
+                5.British Pound (GBP)        10. indonesian Rupiah (IDR)
+                                
+""")
                nilai = int(input("Masukan nilai uang : "))
                Program.mata_uang.mu(mataUang, nilai)
 
