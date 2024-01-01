@@ -56,12 +56,17 @@ while True:
                mataUang = input("""
                pilih kode mata uang:
                                 
-                1. Dinar Kuwait (KWD)        6. Gibraltar Pound (GIP)
-                2. Dinar Bahrain (BHD)       7. Cayman Island Dollar (KYD)
-                3.Rial Oman (OMR)            8. Swiss Franc (CHF)
-                4.Dinar Yordania (JOD)       9. Euro (EUR)
-                5.British Pound (GBP)        10. united States Dollar (USD)
-               11. indonesian Rupiah (IDR)
+                1. Dinar Kuwait (KWD)        
+                2. Dinar Bahrain (BHD)       
+                3.Rial Oman (OMR)            
+                4.Dinar Yordania (JOD)       
+                5.British Pound (GBP)
+                6. Gibraltar Pound (GIP)
+                7. Cayman Island Dollar (KYD)
+                8. Swiss Franc (CHF)
+                9. Euro (EUR)
+                10. united States Dollar (USD)
+                11. indonesian Rupiah (IDR)
                                 
 """)
                nilai = int(input("Masukan nilai uang : "))

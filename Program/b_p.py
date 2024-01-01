@@ -7,9 +7,16 @@ def pj(panjang, value):
           dm = value * 10000
           cm = value * 100000
           mm = value * 1000000
-          print(f"km\thm\tdam\tm\tdm\tcm\tmm\n")
-          print("-"*65)
-          print(f"{km}\t{hm}\t{dam}\t{m}\t{dm}\t{cm}\t{mm}")
+          print(f"""
+            km   : {km}          
+            hm   : {hm}
+            dam  : {dam}
+            m    : {m}
+            dm   : {dm}
+            cm   : {cm}
+            mm   : {mm}
+          """)
+         
      elif panjang == "hm":
           km = value / 10
           hm = value
@@ -18,9 +25,16 @@ def pj(panjang, value):
           dm = value * 1000
           cm = value * 10000
           mm = value * 100000
-          print(f"km\thm\tdam\tm\tdm\tcm\tmm\n")
-          print("-"*65)
-          print(f"{km}\t{hm}\t{dam}\t{m}\t{dm}\t{cm}\t{mm}")
+          print(f"""
+            km   : {km}          
+            hm   : {hm}
+            dam  : {dam}
+            m    : {m}
+            dm   : {dm}
+            cm   : {cm}
+            mm   : {mm}
+          """)
+         
      elif panjang == "dam":
           km = value / 100
           hm = value / 10
@@ -29,9 +43,16 @@ def pj(panjang, value):
           dm = value * 100
           cm = value * 1000
           mm = value * 10000
-          print(f"km\thm\tdam\tm\tdm\tcm\tmm\n")
-          print("-"*65)
-          print(f"{km}\t{hm}\t{dam}\t{m}\t{dm}\t{cm}\t{mm}")
+          print(f"""
+            km   : {km}          
+            hm   : {hm}
+            dam  : {dam}
+            m    : {m}
+            dm   : {dm}
+            cm   : {cm}
+            mm   : {mm}
+          """)
+         
      elif panjang == "m":
           km = value / 1000
           hm = value / 100
@@ -40,9 +61,16 @@ def pj(panjang, value):
           dm = value * 10
           cm = value * 100
           mm = value * 1000
-          print(f"km\thm\tdam\tm\tdm\tcm\tmm\n")
-          print("-"*65)
-          print(f"{km}\t{hm}\t{dam}\t{m}\t{dm}\t{cm}\t{mm}")
+          print(f"""
+            km   : {km}          
+            hm   : {hm}
+            dam  : {dam}
+            m    : {m}
+            dm   : {dm}
+            cm   : {cm}
+            mm   : {mm}
+          """)
+         
      elif panjang == "dm":
           km = value / 10000
           hm = value / 1000
@@ -51,9 +79,16 @@ def pj(panjang, value):
           dm = value 
           cm = value * 10
           mm = value * 100
-          print(f"km\thm\tdam\tm\tdm\tcm\tmm\n")
-          print("-"*65)
-          print(f"{km}\t{hm}\t{dam}\t{m}\t{dm}\t{cm}\t{mm}")
+          print(f"""
+            km   : {km}          
+            hm   : {hm}
+            dam  : {dam}
+            m    : {m}
+            dm   : {dm}
+            cm   : {cm}
+            mm   : {mm}
+          """)
+         
      elif panjang == "cm":
           km = value / 100000
           hm = value / 10000
@@ -62,9 +97,16 @@ def pj(panjang, value):
           dm = value /10
           cm = value 
           mm = value * 10
-          print(f"km\thm\tdam\tm\tdm\tcm\tmm\n")
-          print("-"*65)
-          print(f"{km}\t{hm}\t{dam}\t{m}\t{dm}\t{cm}\t{mm}")
+          print(f"""
+            km   : {km}          
+            hm   : {hm}
+            dam  : {dam}
+            m    : {m}
+            dm   : {dm}
+            cm   : {cm}
+            mm   : {mm}
+          """)
+         
      elif panjang == "mm":
           km = value / 1000000
           hm = value / 100000
@@ -73,9 +115,16 @@ def pj(panjang, value):
           dm = value /100
           cm = value / 10
           mm = value
-          print(f"km\thm\tdam\tm\tdm\tcm\tmm\n")
-          print("-"*65)
-          print(f"{km}\t{hm}\t{dam}\t{m}\t{dm}\t{cm}\t{mm}")
+          print(f"""
+            km   : {km}          
+            hm   : {hm}
+            dam  : {dam}
+            m    : {m}
+            dm   : {dm}
+            cm   : {cm}
+            mm   : {mm}
+          """)
+         
      
 def pb(berat, value):
       if berat == "kg":
@@ -86,9 +135,15 @@ def pb(berat, value):
           dg = value * 10000
           cg = value * 100000
           mg = value * 1000000
-          print(f"kg\thg\tdag\tg\tdg\tcg\tmg\n")
-          print("-"*65)
-          print(f"{kg}\t{hg}\t{dag}\t{g}\t{dg}\t{cg}\t{mg}")
+          print(f"""
+          kg   : {kg}          
+          hg   : {hg}
+          dag  : {dag}
+          g    : {g}
+          dg   : {dg}
+          cg   : {cg}
+          mg   : {mg}
+        """)
       elif berat == "hg":
           kg = value / 10
           hg = value
@@ -97,9 +152,15 @@ def pb(berat, value):
           dg = value * 1000
           cg = value * 10000
           mg = value * 100000
-          print(f"kg\thg\tdag\tg\tdg\tcg\tmg\n")
-          print("-"*65)
-          print(f"{kg}\t{hg}\t{dag}\t{g}\t{dg}\t{cg}\t{mg}")
+          print(f"""
+          kg  : {kg}          
+          hg  : {hg}
+          dag : {dag}
+          g   : {g}
+          dg  : {dg}
+          cg  : {cg}
+          mg  : {mg}
+        """)
       elif berat == "dag":
           kg = value / 100
           hg = value / 10
@@ -108,9 +169,15 @@ def pb(berat, value):
           dg = value * 100
           cg = value * 1000
           mg = value * 10000
-          print(f"kg\thg\tdag\tg\tdg\tcg\tmg\n")
-          print("-"*65)
-          print(f"{kg}\t{hg}\t{dag}\t{g}\t{dg}\t{cg}\t{mg}")
+          print(f"""
+          kg  : {kg}          
+          hg  : {hg}
+          dag : {dag}
+          g   : {g}
+          dg  : {dg}
+          cg  : {cg}
+          mg  : {mg}
+        """)
       elif berat == "g":
           kg = value / 1000
           hg = value / 100
@@ -119,9 +186,15 @@ def pb(berat, value):
           dg = value * 10
           cg = value * 100
           mg = value * 1000
-          print(f"kg\thg\tdag\tg\tdg\tcg\tmg\n")
-          print("-"*65)
-          print(f"{kg}\t{hg}\t{dag}\t{g}\t{dg}\t{cg}\t{mg}")
+          print(f"""
+          kg  : {kg}          
+          hg  : {hg}
+          dag : {dag}
+          g   : {g}
+          dg  : {dg}
+          cg  : {cg}
+          mg  : {mg}
+        """)
       elif berat == "dg":
           kg = value / 10000
           hg = value / 1000
@@ -130,9 +203,15 @@ def pb(berat, value):
           dg = value 
           cg = value * 10
           mg = value * 100
-          print(f"kg\thg\tdag\tg\tdg\tcg\tmg\n")
-          print("-"*65)
-          print(f"{kg}\t{hg}\t{dag}\t{g}\t{dg}\t{cg}\t{mg}")
+          print(f"""
+          kg   : {kg}          
+          hg   : {hg}
+          dag  : {dag}
+          g    : {g}
+          dg   : {dg}
+          cg   : {cg}
+          mg   : {mg}
+        """)
       elif berat == "cg":
           kg = value / 100000
           hg = value / 10000
@@ -141,9 +220,15 @@ def pb(berat, value):
           dg = value /10
           cg = value 
           mg = value * 10
-          print(f"kg\thg\tdag\tg\tdg\tcg\tmg\n")
-          print("-"*65)
-          print(f"{kg}\t{hg}\t{dag}\t{g}\t{dg}\t{cg}\t{mg}")
+          print(f"""
+          kg  : {kg}          
+          hg  : {hg}
+          dag : {dag}
+          g   : {g}
+          dg  : {dg}
+          cg  : {cg}
+          mg  : {mg}
+        """)
       elif berat == "mg":
           kg = value / 1000000
           hg = value / 100000
@@ -152,8 +237,14 @@ def pb(berat, value):
           dg = value /100
           cg = value / 10
           mg = value
-          print(f"kg\thg\tdag\tg\tdg\tcg\tmg\n")
-          print("-"*65)
-          print(f"{kg}\t{hg}\t{dag}\t{g}\t{dg}\t{cg}\t{mg}")
+          print(f"""
+          kg  : {kg}          
+          hg  : {hg}
+          dag : {dag}
+          g   : {g}
+          dg  : {dg}
+          cg  : {cg}
+          mg  : {mg}
+        """)
       else:
         print("masukan dengan benar!")
