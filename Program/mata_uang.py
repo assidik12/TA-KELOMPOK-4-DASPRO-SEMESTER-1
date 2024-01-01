@@ -1,5 +1,5 @@
 def mu(mataUang, nilai):
-     if mataUang == "KWD" or mataUang == "kwd":
+     if mataUang == "KWD" or mataUang == "kwd" or mataUang == "1":
           kwd = nilai
           idr = kwd * 50.100
           bhd = kwd * 1.227
@@ -10,19 +10,21 @@ def mu(mataUang, nilai):
           kyd = kwd * 2.67
           chf = kwd * 2.74
           eur = kwd * 2.95
+          usa = kwd * 3.25
           print(f"""
-          kwd = {kwd},
-          idr = {idr},
-          bhd = {bhd},
-          omr = {omr},
-          jod = {jod},
-          gbp = {gbp},
-          gip = {gip},
-          kyd = {kyd},
-          chf = {chf},
-          eur = {eur},
+     1. Dinar Kuwait          : {kwd}
+     2. Dinar Bahrain         : {bhd}
+     3. Rial Oman             : {omr}
+     4. Dinar Yordania        : {jod}
+     5. British Pound         : {gbp}
+     6. Gibraltar Pound       : {gip}
+     7. Cayman Island Dollar  : {kyd}
+     8. Swiss Franc           : {chf}
+     9. Eur                   : {eur}
+     10. United States Dollar : {usa}
+     11. Indonesia            : {idr}
 """)
-     elif mataUang == "omr" or mataUang == "omr":
+     elif mataUang == "omr" or mataUang == "omr" or mataUang == "3":
           omr = nilai
           idr = omr * 40.018
           bhd = omr * 0.980
@@ -33,19 +35,21 @@ def mu(mataUang, nilai):
           kyd = omr * 2.13
           chf = omr * 2.19
           eur = omr * 2.35
+          usa = omr * 2.60
           print(f"""
-          kwd = {kwd},
-          idr = {idr},
-          bhd = {bhd},
-          omr = {omr},
-          jod = {jod},
-          gbp = {gbp},
-          gip = {gip},
-          kyd = {kyd},
-          chf = {chf},
-          eur = {eur},
+     1. Dinar Kuwait          : {kwd}
+     2. Dinar Bahrain         : {bhd}
+     3. Rial Oman             : {omr}
+     4. Dinar Yordania        : {jod}
+     5. British Pound         : {gbp}
+     6. Gibraltar Pound       : {gip}
+     7. Cayman Island Dollar  : {kyd}
+     8. Swiss Franc           : {chf}
+     9. Eur                   : {eur}
+     10. United States Dollar : {usa}
+     11. Indonesia            : {idr}
 """)
-     elif mataUang == "bhd" or mataUang == "bhd":
+     elif mataUang == "bhd" or mataUang == "bhd" or mataUang == "2":
           bhd = nilai
           idr = bhd * 40.843
           kwd = bhd * 0.815
@@ -56,19 +60,21 @@ def mu(mataUang, nilai):
           kyd = bhd * 2.18
           chf = bhd * 2.23
           eur = bhd * 2.40
+          usa = bhd * 2.65
           print(f"""
-          kwd = {kwd},
-          idr = {idr},
-          bhd = {bhd},
-          omr = {omr},
-          jod = {jod},
-          gbp = {gbp},
-          gip = {gip},
-          kyd = {kyd},
-          chf = {chf},
-          eur = {eur},
+     1. Dinar Kuwait          : {kwd}
+     2. Dinar Bahrain         : {bhd}
+     3. Rial Oman             : {omr}
+     4. Dinar Yordania        : {jod}
+     5. British Pound         : {gbp}
+     6. Gibraltar Pound       : {gip}
+     7. Cayman Island Dollar  : {kyd}
+     8. Swiss Franc           : {chf}
+     9. Eur                   : {eur}
+     10. United States Dollar : {usa}
+     11. Indonesia            : {idr}
 """)
-     elif mataUang == "jod" or mataUang == "jod":
+     elif mataUang == "jod" or mataUang == "jod" or mataUang == "4":
           jod = nilai
           idr = jod * 21.716
           bhd = jod * 0.532
@@ -79,19 +85,21 @@ def mu(mataUang, nilai):
           kyd = jod * 1.16
           chf = jod * 1.19
           eur = jod * 1.28
+          usa = jod * 1.41
           print(f"""
-          kwd = {kwd},
-          idr = {idr},
-          bhd = {bhd},
-          omr = {omr},
-          jod = {jod},
-          gbp = {gbp},
-          gip = {gip},
-          kyd = {kyd},
-          chf = {chf},
-          eur = {eur},
+     1. Dinar Kuwait          : {kwd}
+     2. Dinar Bahrain         : {bhd}
+     3. Rial Oman             : {omr}
+     4. Dinar Yordania        : {jod}
+     5. British Pound         : {gbp}
+     6. Gibraltar Pound       : {gip}
+     7. Cayman Island Dollar  : {kyd}
+     8. Swiss Franc           : {chf}
+     9. Eur                   : {eur}
+     10. United States Dollar : {usa}
+     11. Indonesia            : {idr}
 """)
-     elif mataUang == "gbp" or mataUang == "gbp":
+     elif mataUang == "gbp" or mataUang == "gbp" or mataUang == "5":
           gbp = nilai
           idr = gbp * 19.602
           bhd = gbp * 0.480
@@ -102,19 +110,21 @@ def mu(mataUang, nilai):
           kyd = gbp * 1.04
           chf = gbp * 1.07
           eur = gbp * 1.15
+          usa = gbp * 2.55
           print(f"""
-          kwd = {kwd},
-          idr = {idr},
-          bhd = {bhd},
-          omr = {omr},
-          jod = {jod},
-          gbp = {gbp},
-          gip = {gip},
-          kyd = {kyd},
-          chf = {chf},
-          eur = {eur},
+     1. Dinar Kuwait          : {kwd}
+     2. Dinar Bahrain         : {bhd}
+     3. Rial Oman             : {omr}
+     4. Dinar Yordania        : {jod}
+     5. British Pound         : {gbp}
+     6. Gibraltar Pound       : {gip}
+     7. Cayman Island Dollar  : {kyd}
+     8. Swiss Franc           : {chf}
+     9. Eur                   : {eur}
+     10. United States Dollar : {usa}
+     11. Indonesia            : {idr}
 """)
-     elif mataUang == "gip" or mataUang == "gip":
+     elif mataUang == "gip" or mataUang == "gip" or mataUang == "6":
           gip = nilai
           idr = gip * 19.602
           bhd = gip * 0.480
@@ -125,19 +135,21 @@ def mu(mataUang, nilai):
           kyd = gip *1.04
           chf = gip * 1.07
           eur = gip * 1.15
+          usa = gip * 1.27315
           print(f"""
-          kwd = {kwd},
-          idr = {idr},
-          bhd = {bhd},
-          omr = {omr},
-          jod = {jod},
-          gbp = {gbp},
-          gip = {gip},
-          kyd = {kyd},
-          chf = {chf},
-          eur = {eur},
+     1. Dinar Kuwait          : {kwd}
+     2. Dinar Bahrain         : {bhd}
+     3. Rial Oman             : {omr}
+     4. Dinar Yordania        : {jod}
+     5. British Pound         : {gbp}
+     6. Gibraltar Pound       : {gip}
+     7. Cayman Island Dollar  : {kyd}
+     8. Swiss Franc           : {chf}
+     9. Eur                   : {eur}
+     10. United States Dollar : {usa}
+     11. Indonesia            : {idr}
 """)
-     elif mataUang == "kyd" or mataUang == "kyd":
+     elif mataUang == "kyd" or mataUang == "kyd" or mataUang == "7":
           kyd = nilai
           idr = kyd * 18.776
           bhd = kyd * 0.460
@@ -148,19 +160,21 @@ def mu(mataUang, nilai):
           kwd = kyd * 0.375
           chf = kyd * 1.03
           eur = kyd * 1.10
+          usa = kyd * 1.20
           print(f"""
-          kwd = {kwd},
-          idr = {idr},
-          bhd = {bhd},
-          omr = {omr},
-          jod = {jod},
-          gbp = {gbp},
-          gip = {gip},
-          kyd = {kyd},
-          chf = {chf},
-          eur = {eur},
+     1. Dinar Kuwait          : {kwd}
+     2. Dinar Bahrain         : {bhd}
+     3. Rial Oman             : {omr}
+     4. Dinar Yordania        : {jod}
+     5. British Pound         : {gbp}
+     6. Gibraltar Pound       : {gip}
+     7. Cayman Island Dollar  : {kyd}
+     8. Swiss Franc           : {chf}
+     9. Eur                   : {eur}
+     10. United States Dollar : {usa}
+     11. Indonesia            : {idr}
 """)
-     elif mataUang == "chf" or mataUang == "chf":
+     elif mataUang == "chf" or mataUang == "chf" or mataUang == "8":
           chf = nilai
           idr = chf * 18.297
           bhd = chf * 0.448
@@ -171,19 +185,21 @@ def mu(mataUang, nilai):
           kyd = chf * 0.97
           kwd = chf * 0.365
           eur = chf * 1.08
+          usa = chf * 1.19
           print(f"""
-          kwd = {kwd},
-          idr = {idr},
-          bhd = {bhd},
-          omr = {omr},
-          jod = {jod},
-          gbp = {gbp},
-          gip = {gip},
-          kyd = {kyd},
-          chf = {chf},
-          eur = {eur},
+     1. Dinar Kuwait          : {kwd}
+     2. Dinar Bahrain         : {bhd}
+     3. Rial Oman             : {omr}
+     4. Dinar Yordania        : {jod}
+     5. British Pound         : {gbp}
+     6. Gibraltar Pound       : {gip}
+     7. Cayman Island Dollar  : {kyd}
+     8. Swiss Franc           : {chf}
+     9. Eur                   : {eur}
+     10. United States Dollar : {usa}
+     11. Indonesia            : {idr}
 """)
-     elif mataUang == "eur" or mataUang == "eur":
+     elif mataUang == "eur" or mataUang == "eur" or mataUang == "9":
           eur = nilai
           idr = eur * 16.993
           bhd = eur * 0.416
@@ -194,19 +210,21 @@ def mu(mataUang, nilai):
           kyd = eur * 0.91
           chf = eur * 0.93
           kwd= eur * 0.339
+          usa = eur * 1.11
           print(f"""
-          kwd = {kwd},
-          idr = {idr},
-          bhd = {bhd},
-          omr = {omr},
-          jod = {jod},
-          gbp = {gbp},
-          gip = {gip},
-          kyd = {kyd},
-          chf = {chf},
-          eur = {eur},
+     1. Dinar Kuwait          : {kwd}
+     2. Dinar Bahrain         : {bhd}
+     3. Rial Oman             : {omr}
+     4. Dinar Yordania        : {jod}
+     5. British Pound         : {gbp}
+     6. Gibraltar Pound       : {gip}
+     7. Cayman Island Dollar  : {kyd}
+     8. Swiss Franc           : {chf}
+     9. Eur                   : {eur}
+     10. United States Dollar : {usa}
+     11. Indonesia            : {idr}
 """)
-     elif mataUang == "idr" or mataUang == "idr":
+     elif mataUang == "idr" or mataUang == "idr" or mataUang == "11":
           idr = nilai
           kwd = idr * 50.100
           bhd = idr * 40.843
@@ -217,17 +235,42 @@ def mu(mataUang, nilai):
           kyd = idr * 18.776
           chf = idr * 19.297
           eur = idr * 16.993
+          usa = idr * 0.000065
           print(f"""
-          kwd = {kwd},
-          idr = {idr},
-          bhd = {bhd},
-          omr = {omr},
-          jod = {jod},
-          gbp = {gbp},
-          gip = {gip},
-          kyd = {kyd},
-          chf = {chf},
-          eur = {eur},
+     1. Dinar Kuwait          : {kwd}
+     2. Dinar Bahrain         : {bhd}
+     3. Rial Oman             : {omr}
+     4. Dinar Yordania        : {jod}
+     5. British Pound         : {gbp}
+     6. Gibraltar Pound       : {gip}
+     7. Cayman Island Dollar  : {kyd}
+     8. Swiss Franc           : {chf}
+     9. Eur                   : {eur}
+     10. United States Dollar : {usa}
+     11. Indonesia            : {idr}
 """)
-
-     
+     elif mataUang == "USD" or mataUang == "usd" or mataUang == "10" :
+          usd = nilai
+          kwd = usd * 0.31
+          bhd = usd * 0.38
+          omr = usd * 0.38
+          jod = usd * 0.71
+          gbp = usd * 0.78
+          gip = usd * 0.78468
+          kyd = usd * 0.83
+          chf = usd * 0.84
+          eur = usd * 0.90
+          idr = usd * 15.390,10
+          print(f"""
+     1. Dinar Kuwait          : {kwd}
+     2. Dinar Bahrain         : {bhd}
+     3. Rial Oman             : {omr}
+     4. Dinar Yordania        : {jod}
+     5. British Pound         : {gbp}
+     6. Gibraltar Pound       : {gip}
+     7. Cayman Island Dollar  : {kyd}
+     8. Swiss Franc           : {chf}
+     9. Eur                   : {eur}
+     10. United States Dollar : {usa}
+     11. Indonesia            : {idr}
+""")

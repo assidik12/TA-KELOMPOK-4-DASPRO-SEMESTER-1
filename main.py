@@ -60,7 +60,8 @@ while True:
                 2. Dinar Bahrain (BHD)       7. Cayman Island Dollar (KYD)
                 3.Rial Oman (OMR)            8. Swiss Franc (CHF)
                 4.Dinar Yordania (JOD)       9. Euro (EUR)
-                5.British Pound (GBP)        10. indonesian Rupiah (IDR)
+                5.British Pound (GBP)        10. united States Dollar (USD)
+               11. indonesian Rupiah (IDR)
                                 
 """)
                nilai = int(input("Masukan nilai uang : "))
