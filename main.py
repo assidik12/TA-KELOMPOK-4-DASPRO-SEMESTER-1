@@ -73,6 +73,9 @@ while True:
      2. Kurang
      3. Kali
      4. Bagi 
+     5. Modulus
+     6. Pangkat
+     7. Pembagian dengan hasil Bilangan Bulat
                 """)
           fungsi =input("Pilih Operasi Bilangan(1/2/3/4) : ")
           print("-----------------------------------------")
